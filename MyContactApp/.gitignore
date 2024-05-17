@@ -1,0 +1,24 @@
+# Arquivos de build e debug
+bin/
+obj/
+
+# Arquivos gerados pelo Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Arquivos gerados pelo .NET Core
+project.lock.json
+.DS_Store
+*.swp
+publish/
+
+# Arquivos de log
+*.log
+
+# Outros arquivos e diretórios ignorados comumente
+*.pid
+*.pid.lock
+*.seed
+*.pid.lock

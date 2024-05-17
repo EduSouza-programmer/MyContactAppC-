@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `Contacts` (
+    `Id` INT NOT NULL AUTO_INCREMENT,
+    `Name` VARCHAR(255) NOT NULL,
+    `Email` VARCHAR(255),
+    `Phone` VARCHAR(255),
+    `CellPhone` VARCHAR(255),
+    `Type` VARCHAR(255) NOT NULL,
+    PRIMARY KEY (`Id`)
+);
